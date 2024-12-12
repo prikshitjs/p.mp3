@@ -1,0 +1,33 @@
+@media only screen and (max-width:900px) {
+    .left_container
+    {
+        position: fixed;
+        z-index: 1000;
+        transform: translateX(-390px);
+        opacity: 0;
+        visibility: hidden;
+        width: 100%;
+    }
+    .show_menu
+    {
+        transform: translateX(0);
+        opacity: 1;
+        visibility: visible;
+    }
+    .right_container
+    {
+        width: 100%;
+    }
+    #menubar
+    {
+        display: block;
+    }
+    .menubar_move
+    {
+        transform: translateX(300px);
+    }
+    .playlist
+    {
+        justify-content: center;
+    }
+}
