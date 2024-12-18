@@ -22,9 +22,9 @@
     {
         display: block;
     }
-    .menubar_move
+    #closemenu
     {
-        transform: translateX(300px);
+        display: block;
     }
     .playlist
     {

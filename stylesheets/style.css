@@ -99,7 +99,7 @@ body
     padding: 7px;
     border-radius: 4px;
     overflow-y: scroll;
-    height: 700px;
+    height: 430px;
 }
 .album
 {
@@ -126,6 +126,10 @@ body
     align-items: center;
     gap: 5px;
     cursor: pointer;
+    color: #fff;
+    padding: 3px 8px;
+    border-radius: 5px;
+    transition: 0.5s;
 }
 .option-links
 {
@@ -161,6 +165,16 @@ body
     display: none;
     cursor: pointer;
     transition: 0.4s;
+    z-index: 2000;
+}
+#closemenu
+{
+    position: fixed;
+    right: 20px;
+    top: 20px;
+    font-size: 35px;
+    cursor: pointer;
+    display: none;
 }
 .right-top-nav
 {
@@ -170,6 +184,7 @@ body
     align-items: center;
     justify-content: space-between;
     padding: 10px;
+    position: fixed;
 }
 .left-right
 {
@@ -280,6 +295,7 @@ body
 {
     width: 100%;
     accent-color: #fff;
+    cursor: pointer;
 }
 .music-player
 {
